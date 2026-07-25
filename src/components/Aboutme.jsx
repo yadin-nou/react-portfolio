@@ -8,7 +8,7 @@ export const Aboutme = ({ mypic }) => {
           <div className="title" style={{ color: "var(--white-text)" }}>
             About me
           </div>
-          <div className="content">
+          <div className="content playfair-display">
             <div className="aboutme-pic">
               <img src={mypic} alt="Yadin Nou" />
             </div>

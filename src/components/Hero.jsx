@@ -9,7 +9,7 @@ export const Hero = ({ mypic }) => {
           <i className="fa-solid fa-circle-half-stroke"></i>
         </div> */}
         <div className="container" id="home">
-          <div className="hero-detail">
+          <div className="hero-detail playfair-display">
             <img
               className="img-yadin"
               src={mypic}

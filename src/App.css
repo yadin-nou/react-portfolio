@@ -13,6 +13,13 @@
   font-style: normal;
 }
 
+.playfair-display {
+  font-family: "Playfair Display", serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+
 .dark-theme {
   --primary-color: linear-gradient(to bottom, black, rgba(30, 20, 18, 1.782));
   /* --aboutme-color: black; */
@@ -354,6 +361,7 @@ p {
   justify-content: space-between;
   gap: 50px;
   font-size: 1rem;
+  letter-spacing: 0.2px;
 }
 .aboutme-pic img {
   border-radius: 20px;
