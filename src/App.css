@@ -306,7 +306,6 @@ p {
   display: grid;
   gap: 1rem;
   grid-template-columns: repeat(2, 1fr);
-  gap: 10px;
 }
 
 .pro-title {
@@ -478,9 +477,13 @@ p {
     flex-direction: column;
     gap: 30px;
   }
+  .projects-container {
+    grid-template-columns: repeat(1, 1fr);
+    /* padding-left: 10%; */
+  }
 
   .card {
-    width: 500px;
+    width: 100%;
   }
   .card img {
     width: 100%;
@@ -495,8 +498,8 @@ p {
     padding-bottom: 10px;
   }
   .aboutme .container .content {
-    display: flex;
-    justify-content: space-between;
+    justify-content: center;
+    align-items: center;
     flex-direction: column;
     gap: 50px;
   }
@@ -560,6 +563,9 @@ p {
   .hero-detail {
     width: 90%;
   }
+  .hero-detail h1 {
+    font-size: 1.5rem;
+  }
   header .container {
     height: 100%;
     margin-bottom: 50px;
@@ -581,18 +587,23 @@ p {
   .ch-background {
     left: 20px;
   }
+  .projects {
+    width: 100%;
+    /* padding-right: 100px; */
+  }
 
-  .projects-container {
+  /* .projects-container {
     display: flex;
     flex-direction: column;
-  }
+  } */
 
   .pro-title {
     font-size: 1rem;
     text-align: center;
   }
   .card {
-    width: 400px;
+    /* width: 250px; */
+    width: 100%;
   }
   .card img {
     width: 100%;
@@ -639,22 +650,29 @@ p {
     display: none;
   }
   .menu ul {
-    display: flex;
     flex-direction: column;
     cursor: pointer;
     gap: 25px;
-    height: 100vh;
-    width: 200px;
+    height: 50vh;
+    width: 150px;
+    /* background-color: var(--primary-color); */
     background-color: var(--primary-color);
     padding-top: 10px;
     box-shadow: rgba(0, 0, 0, 1) 2px 19px 29px -16px;
     z-index: 1;
   }
   #ch-menu:checked + .menu {
-    left: 52%;
+    /* left: 62%; */
+    left: calc(100vw - 150px);
     display: block;
   }
   .footer {
     font-size: 0.8rem;
   }
 }
+/* @media (max-width: 458px) {
+  #ch-menu:checked + .menu {
+    left: 49%;
+    display: block;
+  }
+} */
