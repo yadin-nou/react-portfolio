@@ -6,7 +6,6 @@ export const Footer = () => {
       <footer className="footer background-footer">
         <div className="container">
           <div>
-            <div className="footer-link">Links</div>
             <ul>
               <li>
                 <a href="#home">Home</a>
@@ -22,7 +21,8 @@ export const Footer = () => {
               </li>
             </ul>
           </div>
-          <div>
+
+          {/* <div>
             <div className="footer-link">Soical</div>
             <ul>
               <li>
@@ -45,7 +45,7 @@ export const Footer = () => {
                 <a href="#">Facebook</a>
               </li>
             </ul>
-          </div>
+          </div> */}
         </div>
       </footer>
     </>

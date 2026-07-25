@@ -5,9 +5,9 @@ export const Hero = ({ mypic }) => {
   return (
     <>
       <header className="hero background-hero">
-        <div className="ch-background">
+        {/* <div className="ch-background" onClick={handleToggle}>
           <i className="fa-solid fa-circle-half-stroke"></i>
-        </div>
+        </div> */}
         <div className="container" id="home">
           <div className="hero-detail">
             <img

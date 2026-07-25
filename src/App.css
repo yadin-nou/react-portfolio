@@ -14,10 +14,12 @@
 }
 
 .dark-theme {
-  --primary-color: black;
-  --aboutme-color: black;
+  --primary-color: linear-gradient(to bottom, black, rgba(30, 20, 18, 1.782));
+  /* --aboutme-color: black; */
+  --aboutme-color: rgb(86, 139, 86);
   --black-text: white;
   --white-text: black;
+  --heroBackground: rgb(86, 139, 86);
 }
 * {
   box-sizing: border-box;
@@ -118,7 +120,7 @@ html {
   font-size: 1rem;
   padding-top: 10vh;
   box-shadow: rgba(0, 0, 0, 0.3) 0px 18px 29px -23px inset;
-  position: relative;
+  /* position: relative; */
 }
 .ch-background {
   position: fixed;
@@ -352,6 +354,7 @@ p {
   display: flex;
   justify-content: space-between;
   gap: 50px;
+  font-size: 1rem;
 }
 .aboutme-pic img {
   border-radius: 20px;
@@ -370,7 +373,7 @@ p {
 /* contact information */
 .contact {
   height: 100vh;
-  padding-top: 100px;
+  padding-top: 50px;
 }
 
 .contact-logo {
@@ -387,7 +390,7 @@ p {
   gap: 10px;
 }
 .email {
-  background: var(--black-text);
+  background: var(--heroBackground);
   width: 250px;
   height: 40px;
   display: flex;
@@ -401,21 +404,29 @@ p {
 }
 /* footer */
 .footer {
-  height: 50vh;
-  color: white;
+  height: 10vh;
+  color: var(--white-text);
 }
 .footer .container {
+  margin: 0 auto;
+}
+/* .footer-link {
   display: flex;
   justify-content: center;
   align-items: center;
-  padding-top: 100px;
-}
-.footer-link {
+  padding-left: 20px;
+} */
+.footer .container div {
+  width: 100%;
   display: flex;
   justify-content: center;
-  padding-left: 20px;
+  align-items: center;
+  padding-top: 2.5vh;
 }
-
+.footer .container ul {
+  display: flex;
+  gap: 20px;
+}
 .footer .container div ul li {
   list-style: none;
 }
@@ -636,5 +647,8 @@ p {
   #ch-menu:checked + .menu {
     left: 52%;
     display: block;
+  }
+  .footer {
+    font-size: 0.8rem;
   }
 }
