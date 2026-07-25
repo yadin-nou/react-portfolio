@@ -322,7 +322,7 @@ p {
   border-radius: 20px;
   padding-bottom: 3rem;
   width: auto;
-  /* background: var(--primary-color); */
+  background: var(--primary-color);
 }
 .card img {
   width: 100%;
@@ -357,10 +357,10 @@ p {
   border-radius: 20px;
 }
 .aboutme-content {
-  color: var(--black-text);
+  color: var(--white-text);
 }
 .aboutme-content p {
-  color: var(--black-text);
+  color: var(--white-text);
 }
 .interest {
   display: flex;
@@ -381,10 +381,15 @@ p {
   align-items: center;
   gap: 50px;
 }
+.contact-link {
+  font-size: 2rem;
+  display: flex;
+  gap: 10px;
+}
 .email {
   background: var(--black-text);
-  width: 200px;
-  height: 30px;
+  width: 250px;
+  height: 40px;
   display: flex;
   justify-content: center;
   align-items: center;

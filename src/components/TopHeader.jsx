@@ -10,7 +10,7 @@ export const TopHeader = () => {
           <span className="verticle-line"></span>
           Full Stack Developer
         </div>
-        <label for="ch-menu">
+        <label htmlFor="ch-menu">
           <i className="fa-solid fa-bars fa-lg"></i>
         </label>
         <input type="checkbox" id="ch-menu" />

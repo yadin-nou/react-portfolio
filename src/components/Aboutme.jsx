@@ -5,7 +5,9 @@ export const Aboutme = ({ mypic }) => {
     <>
       <section className="aboutme background-hero" id="aboutme">
         <div className="container">
-          <div className="title">About me</div>
+          <div className="title" style={{ color: "var(--white-text)" }}>
+            About me
+          </div>
           <div className="content">
             <div className="aboutme-pic">
               <img src={mypic} alt="Yadin Nou" />

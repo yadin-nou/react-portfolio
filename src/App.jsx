@@ -6,6 +6,8 @@ import { Skills } from "./components/Skills";
 import { TopHeader } from "./components/TopHeader";
 import mypic from "./assets/yadin.jpg";
 import { Aboutme } from "./components/Aboutme";
+import { Footer } from "./components/Footer";
+import { Contact } from "./components/Contact";
 function App() {
   return (
     <div className="wrapper">
@@ -21,7 +23,10 @@ function App() {
       <Projects />
       {/* About me section */}
       <Aboutme mypic={mypic} />
+      {/* Contact me */}
+      <Contact />
       {/* footer section */}
+      <Footer />
     </div>
   );
 }
