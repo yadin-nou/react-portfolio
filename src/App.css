@@ -455,7 +455,11 @@ p {
     width: 80%;
     margin-top: 50px;
   }
-
+  .img-yadin {
+    width: calc(100vw-150px);
+    height: auto;
+    border-radius: 50%;
+  }
   .experience {
     display: flex;
     height: 50vh;
@@ -470,7 +474,7 @@ p {
   }
 
   .skills {
-    height: 100vh;
+    height: 50vh;
   }
   .skills .container {
     display: flex;
