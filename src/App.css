@@ -443,6 +443,9 @@ p {
 }
 /* @media (max-width: 768px) { */
 @media (max-width: 890px) {
+  .name-title {
+    margin: 1vh;
+  }
   .top-header .container {
     flex-direction: column;
   }
@@ -541,6 +544,9 @@ p {
   }
 }
 @media (max-width: 576px) {
+  .name-title {
+    margin: 1vh;
+  }
   .experience {
     height: 80vh;
   }
