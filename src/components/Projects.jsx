@@ -1,8 +1,8 @@
 import React from "react";
-import calApple from "/assets/images/calculator.png";
-import travel from "/assets/images/travel.png";
-import randomUser from "/assets/images/randomUser-User.png";
-import notTodo from "/assets/images/not_list.png";
+import calculatorImg from "../assets/images/calculator.png";
+import travel from "../assets/images/travel.png";
+import randomUser from "../assets/images/random-User.png";
+import notTodo from "../assets/images/not_list.png";
 
 export const Projects = () => {
   return (
@@ -12,7 +12,7 @@ export const Projects = () => {
           <div className="title">Projects</div>
           <div className="projects-container">
             <div className="card">
-              <img src={calApple} width="100%" alt="calculator" />
+              <img src={calculatorImg} width="100%" alt="calculator" />
               <div className="git-link">
                 <span>
                   <a
@@ -44,8 +44,8 @@ export const Projects = () => {
                 </span>
               </div>
               <div className="pro-title">
-                <h3>Prank Calculator Apple version</h3>
-                <div> Techstack: HTML, CSSS, Javascript</div>
+                <h4>Prank Calculator Apple version</h4>
+                <div> Techstack: HTML, CSSS, Javascript and React JS</div>
               </div>
             </div>
             <div className="card">
@@ -81,7 +81,7 @@ export const Projects = () => {
                 </span>
               </div>
               <div className="pro-title">
-                <h3>Travel Blog</h3>
+                <h4>Travel Blog</h4>
 
                 <div> Techstack: HTML, CSSS</div>
               </div>
@@ -120,7 +120,7 @@ export const Projects = () => {
                 </span>
               </div>
               <div className="pro-title">
-                <h3>Contact List</h3>
+                <h4>Contact List</h4>
 
                 <div> Techstack: HTML, CSSS, Javascript,API and Bootstrap</div>
               </div>
@@ -145,7 +145,7 @@ export const Projects = () => {
                 </span>
                 <span>
                   <a
-                    href="https://yadin-nou.github.io/not-to-list/"
+                    href="https://react-not-todo-list-nine.vercel.app/"
                     target="_blank"
                   >
                     <i
@@ -159,9 +159,9 @@ export const Projects = () => {
                 </span>
               </div>
               <div className="pro-title">
-                <h3>NOT To List</h3>
+                <h4>NOT To List</h4>
 
-                <div> Techstack: HTML, CSSS, Javascript</div>
+                <div> Techstack: HTML, CSSS, Javascript and React JS</div>
               </div>
             </div>
           </div>
