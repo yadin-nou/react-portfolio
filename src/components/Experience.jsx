@@ -30,7 +30,9 @@ export const Experience = () => {
           </div>
         </div>
         <div className="clickTop">
-          <a href="#top">^</a>
+          <a href="#top">
+            <i className="fa-solid fa-angles-up fa-2xs"></i>
+          </a>
         </div>
       </section>
     </>
