@@ -49,7 +49,7 @@ export const Projects = () => {
               </div>
             </div>
             <div className="card">
-              <img src={travel} width="100%" alt="calculator" />
+              <img src={travel} width="100%" alt="Travel site" />
               <div className="git-link">
                 <span>
                   <a

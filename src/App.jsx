@@ -4,14 +4,15 @@ import { Hero } from "./components/Hero";
 import { Projects } from "./components/Projects";
 import { Skills } from "./components/Skills";
 import { TopHeader } from "./components/TopHeader";
-
+import mypic from "./assets/yadin.jpg";
+import { Aboutme } from "./components/Aboutme";
 function App() {
   return (
     <div className="wrapper">
       {/* Top header */}
       <TopHeader />
       {/* Hero Section */}
-      <Hero />
+      <Hero mypic={mypic} />
       {/* experince section */}
       <Experience />
       {/* Skills section */}
@@ -19,6 +20,7 @@ function App() {
       {/* Project Section */}
       <Projects />
       {/* About me section */}
+      <Aboutme mypic={mypic} />
       {/* footer section */}
     </div>
   );

@@ -1,7 +1,7 @@
 import React from "react";
-import mypic from "../assets/yadin.jpg";
+
 import cv from "../assets/Yadin-Nou-Resume.pdf";
-export const Hero = () => {
+export const Hero = ({ mypic }) => {
   return (
     <>
       <header className="hero background-hero">

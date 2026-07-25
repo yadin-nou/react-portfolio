@@ -353,7 +353,8 @@ p {
   justify-content: space-between;
   gap: 50px;
 }
-.aboutme-pic {
+.aboutme-pic img {
+  border-radius: 20px;
 }
 .aboutme-content {
   color: var(--black-text);
@@ -371,8 +372,7 @@ p {
   height: 100vh;
   padding-top: 100px;
 }
-.contact .container {
-}
+
 .contact-logo {
   padding-top: 100px;
   display: flex;
