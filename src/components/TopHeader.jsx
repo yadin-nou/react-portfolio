@@ -1,7 +1,12 @@
-import React from "react";
+import React, { useState } from "react";
 import { Link } from "react-router-dom";
 
 export const TopHeader = () => {
+  const [menu, setMenu] = useState(false);
+
+  const handelMenu = () => {
+    setMenu(!menu);
+  };
   return (
     <div className="top-header background" id="top">
       <div className="container">
@@ -11,12 +16,13 @@ export const TopHeader = () => {
           <span className="verticle-line"></span>
           Full Stack Developer
         </div>
-        <label htmlFor="ch-menu">
+        <label htmlFor="ch-menu" onClick={handelMenu}>
           <i className="fa-solid fa-bars fa-lg"></i>
         </label>
         <input type="checkbox" id="ch-menu" />
-        <div className="menu">
-          <ul>
+        <div className={menu ? "menu slide" : "menu"}>
+          {/* <div className="menu"> */}
+          <ul onClick={handelMenu}>
             <li>
               <Link to="/">Home</Link>
             </li>
