@@ -11,7 +11,7 @@ export const Aboutme = ({ mypic }) => {
           {/* <div className="title" style={{ color: "var(--white-text)" }}>
             About me
           </div> */}
-          <Title title="About me" style={"var(--white-text)"} />
+          <Title title="About me" col={"var(--white-text)"} />
           <div className="content playfair-display">
             <div className="aboutme-pic">
               <img src={mypic} alt="Yadin Nou" />
