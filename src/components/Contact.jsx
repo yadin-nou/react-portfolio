@@ -1,5 +1,6 @@
 import React from "react";
 import { Layout } from "./Layout";
+import { Title } from "./Title";
 
 export const Contact = () => {
   return (
@@ -7,7 +8,7 @@ export const Contact = () => {
       {/* <Layout> */}
       <section className="contact background" id="contact">
         <div className="container">
-          <div className="title">Contact</div>
+          <Title title="Contact" />
         </div>
         <div className="contact-logo">
           <div className="contact-link">

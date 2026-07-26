@@ -1,12 +1,13 @@
 import React from "react";
 import { Layout } from "./Layout";
+import { Title } from "./Title";
 export const Skills = () => {
   return (
     <>
       {/* <Layout> */}
       <section className="skills background" id="skill">
         <div className="container">
-          <div className="title">Skills</div>
+          <Title title="Skills" />
           <div className="sub-skills">
             <div className="subskill-flex">
               <span>

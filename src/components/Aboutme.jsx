@@ -1,5 +1,6 @@
 import React from "react";
 import { Layout } from "./Layout";
+import { Title } from "./Title";
 
 export const Aboutme = ({ mypic }) => {
   return (
@@ -7,9 +8,10 @@ export const Aboutme = ({ mypic }) => {
       {/* <Layout> */}
       <section className="aboutme background-hero" id="aboutme">
         <div className="container">
-          <div className="title" style={{ color: "var(--white-text)" }}>
+          {/* <div className="title" style={{ color: "var(--white-text)" }}>
             About me
-          </div>
+          </div> */}
+          <Title title="About me" style={"var(--white-text)"} />
           <div className="content playfair-display">
             <div className="aboutme-pic">
               <img src={mypic} alt="Yadin Nou" />
