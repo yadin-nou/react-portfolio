@@ -15,6 +15,7 @@ export const Layout = () => {
         <div className="ch-background" onClick={handleToggle}>
           <i className="fa-solid fa-circle-half-stroke"></i>
         </div>
+
         {/* include outlet instead of children */}
         <main>{<Outlet />}</main>
         <Footer />

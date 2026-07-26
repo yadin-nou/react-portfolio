@@ -169,6 +169,11 @@ export const Projects = () => {
           </div>
         </div>
       </section>
+      <div className="clickTop">
+        <a href="#top">
+          <i className="fa-solid fa-angles-up fa-2xs"></i>
+        </a>
+      </div>
       {/* </Layout> */}
     </>
   );
