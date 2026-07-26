@@ -108,7 +108,7 @@ html {
 }
 .menu ul li:hover {
   color: red;
-  transform: scale(1.5);
+  transform: scale(1.2);
 }
 
 .verticle-line {
@@ -264,7 +264,7 @@ p {
 }
 /* skills  */
 .skills {
-  height: 50vh;
+  height: 100vh;
 }
 .skills .container {
   display: flex;
@@ -482,7 +482,7 @@ p {
   }
 
   .skills {
-    height: 50vh;
+    height: 100vh;
   }
   .skills .container {
     display: flex;
@@ -554,7 +554,10 @@ p {
     padding-top: 10px;
     box-shadow: rgba(0, 0, 0, 1) 2px 19px 29px -16px;
   }
-  #ch-menu:checked + .menu {
+  /* #ch-menu:checked + .menu {
+    left: 80%;
+  } */
+  .slide {
     left: 80%;
   }
 }
@@ -673,8 +676,11 @@ p {
     box-shadow: rgba(0, 0, 0, 1) 2px 19px 29px -16px;
     z-index: 1;
   }
-  #ch-menu:checked + .menu {
-    /* left: 62%; */
+  /* #ch-menu:checked + .menu {
+    left: calc(100vw - 150px);
+    display: block;
+  } */
+  .slide {
     left: calc(100vw - 150px);
     display: block;
   }

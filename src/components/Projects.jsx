@@ -3,170 +3,61 @@ import calculatorImg from "../assets/images/calculator.png";
 import travel from "../assets/images/travel.png";
 import randomUser from "../assets/images/random-User.png";
 import notTodo from "../assets/images/not_list.png";
+import { Layout } from "./Layout";
+import { Card } from "./Card";
+import { Title } from "./Title";
 
 export const Projects = () => {
+  const cardDetail = [
+    {
+      imgPath: calculatorImg,
+      gitLink: "https://github.com/yadin-nou/react-calculator-apple",
+      proLink: "https://react-calculator-apple.vercel.app/",
+      title: "Prank Calculator Apple version",
+      description: "Techstack: HTML, CSSS, Javascript and React JS",
+    },
+    {
+      imgPath: travel,
+      gitLink: "https://github.com/yadin-nou/flex-box-template",
+      proLink: "https://yadin-nou.github.io/flex-box-template/",
+      title: "Travel Blog",
+      description: "Techstack: HTML, CSSS",
+    },
+    {
+      imgPath: randomUser,
+      gitLink: "https://github.com/yadin-nou/contact-list",
+      proLink: "https://yadin-nou.github.io/contact-list/",
+      title: "Contact List",
+      description: "Techstack: HTML, CSSS, Javascript,API and Bootstrap",
+    },
+    {
+      imgPath: notTodo,
+      gitLink: "https://github.com/yadin-nou/not-to-list",
+      proLink: "https://react-not-todo-list-nine.vercel.app/",
+      title: "NOT To List",
+      description: "Techstack: HTML, CSSS, Javascript and React JS",
+    },
+  ];
   return (
     <>
+      {/* <Layout> */}
       <section className="projects background " id="project">
         <div className="container">
-          <div className="title">Projects</div>
+          {/* <div className="title">Projects</div> */}
+          <Title title="Projects" />
           <div className="projects-container">
-            <div className="card">
-              <img src={calculatorImg} width="100%" alt="calculator" />
-              <div className="git-link">
-                <span>
-                  <a
-                    href="https://github.com/yadin-nou/react-calculator-apple"
-                    target="_blank"
-                  >
-                    <i
-                      className="fa-brands fa-github"
-                      style={{
-                        color: "rgb(36,85,159)",
-                        fontSize: "1rem !important",
-                      }}
-                    ></i>
-                  </a>
-                </span>
-                <span>
-                  <a
-                    href={"https://react-calculator-apple.vercel.app/"}
-                    target="_blank"
-                  >
-                    <i
-                      className="fa-solid fa-link"
-                      style={{
-                        color: "rgb(36,85,159)",
-                        fontSize: "1rem !important",
-                      }}
-                    ></i>
-                  </a>
-                </span>
-              </div>
-              <div className="pro-title">
-                <h4>Prank Calculator Apple version</h4>
-                <div> Techstack: HTML, CSSS, Javascript and React JS</div>
-              </div>
-            </div>
-            <div className="card">
-              <img src={travel} width="100%" alt="Travel site" />
-              <div className="git-link">
-                <span>
-                  <a
-                    href="https://github.com/yadin-nou/flex-box-template"
-                    target="_blank"
-                  >
-                    <i
-                      className="fa-brands fa-github"
-                      style={{
-                        color: "rgb(36,85,159)",
-                        fontSize: "1rem !important",
-                      }}
-                    ></i>
-                  </a>
-                </span>
-                <span>
-                  <a
-                    href="https://yadin-nou.github.io/flex-box-template/"
-                    target="_blank"
-                  >
-                    <i
-                      className="fa-solid fa-link"
-                      style={{
-                        color: "rgb(36,85,159)",
-                        fontSize: "1rem !important",
-                      }}
-                    ></i>
-                  </a>
-                </span>
-              </div>
-              <div className="pro-title">
-                <h4>Travel Blog</h4>
-
-                <div> Techstack: HTML, CSSS</div>
-              </div>
-            </div>
-            <div className="card">
-              <img src={randomUser} alt="randomUser" />
-
-              <div className="git-link">
-                <span>
-                  <a
-                    href="https://github.com/yadin-nou/contact-list"
-                    target="_blank"
-                  >
-                    <i
-                      className="fa-brands fa-github"
-                      style={{
-                        color: "rgb(36,85,159)",
-                        fontSize: "1rem !important",
-                      }}
-                    ></i>
-                  </a>
-                </span>
-                <span>
-                  <a
-                    href="https://yadin-nou.github.io/contact-list/"
-                    target="_blank"
-                  >
-                    <i
-                      className="fa-solid fa-link"
-                      style={{
-                        color: "rgb(36,85,159)",
-                        fontSize: "1rem !important",
-                      }}
-                    ></i>
-                  </a>
-                </span>
-              </div>
-              <div className="pro-title">
-                <h4>Contact List</h4>
-
-                <div> Techstack: HTML, CSSS, Javascript,API and Bootstrap</div>
-              </div>
-            </div>
-            <div className="card">
-              <img src={notTodo} alt="NotToDoList" />
-
-              <div className="git-link">
-                <span>
-                  <a
-                    href="https://github.com/yadin-nou/not-to-list"
-                    target="_blank"
-                  >
-                    <i
-                      className="fa-brands fa-github"
-                      style={{
-                        color: "rgb(36,85,159)",
-                        fontSize: "1rem !important",
-                      }}
-                    ></i>
-                  </a>
-                </span>
-                <span>
-                  <a
-                    href="https://react-not-todo-list-nine.vercel.app/"
-                    target="_blank"
-                  >
-                    <i
-                      className="fa-solid fa-link"
-                      style={{
-                        color: "rgb(36,85,159)",
-                        fontSize: "1rem !important",
-                      }}
-                    ></i>
-                  </a>
-                </span>
-              </div>
-              <div className="pro-title">
-                <h4>NOT To List</h4>
-
-                <div> Techstack: HTML, CSSS, Javascript and React JS</div>
-              </div>
-            </div>
+            {cardDetail.map((item, index) => (
+              <Card key={index} {...item} />
+            ))}
           </div>
         </div>
       </section>
+      <div className="clickTop">
+        <a href="#top">
+          <i className="fa-solid fa-angles-up fa-2xs"></i>
+        </a>
+      </div>
+      {/* </Layout> */}
     </>
   );
 };

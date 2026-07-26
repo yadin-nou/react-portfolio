@@ -1,13 +1,17 @@
 import React from "react";
+import { Layout } from "./Layout";
+import { Title } from "./Title";
 
 export const Aboutme = ({ mypic }) => {
   return (
     <>
+      {/* <Layout> */}
       <section className="aboutme background-hero" id="aboutme">
         <div className="container">
-          <div className="title" style={{ color: "var(--white-text)" }}>
+          {/* <div className="title" style={{ color: "var(--white-text)" }}>
             About me
-          </div>
+          </div> */}
+          <Title title="About me" col={"var(--white-text)"} />
           <div className="content playfair-display">
             <div className="aboutme-pic">
               <img src={mypic} alt="Yadin Nou" />
@@ -37,6 +41,7 @@ export const Aboutme = ({ mypic }) => {
           </div>
         </div>
       </section>
+      {/* </Layout> */}
     </>
   );
 };

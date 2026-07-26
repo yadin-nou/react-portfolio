@@ -29,11 +29,11 @@ export const Experience = () => {
             <div className="award-status">Experience</div>
           </div>
         </div>
-        <div className="clickTop">
+        {/* <div className="clickTop">
           <a href="#top">
             <i className="fa-solid fa-angles-up fa-2xs"></i>
           </a>
-        </div>
+        </div> */}
       </section>
     </>
   );

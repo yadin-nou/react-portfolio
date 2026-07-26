@@ -1,9 +1,12 @@
 import React from "react";
 
 import cv from "../assets/Yadin-Nou-Resume.pdf";
+import { Layout } from "./Layout";
+import { Experience } from "./Experience";
 export const Hero = ({ mypic }) => {
   return (
     <>
+      {/* <Layout> */}
       <header className="hero background-hero">
         {/* <div className="ch-background" onClick={handleToggle}>
           <i className="fa-solid fa-circle-half-stroke"></i>
@@ -34,6 +37,8 @@ export const Hero = ({ mypic }) => {
           </div>
         </div>
       </header>
+      <Experience />
+      {/* </Layout> */}
     </>
   );
 };
