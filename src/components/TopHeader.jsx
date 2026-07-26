@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 export const TopHeader = () => {
   return (
@@ -17,6 +18,23 @@ export const TopHeader = () => {
         <div className="menu">
           <ul>
             <li>
+              <Link to="/">Home</Link>
+            </li>
+            <li>
+              <Link to="/skills">Skills</Link>
+            </li>
+            <li>
+              <Link to="/projects">Projects</Link>
+            </li>
+            <li>
+              <Link to="/aboutme">About</Link>
+            </li>
+            <li>
+              <Link to="/contact">Contact</Link>
+            </li>
+          </ul>
+          {/* <ul>
+            <li>
               <a href="#home">Home</a>
             </li>
             <li>
@@ -28,7 +46,7 @@ export const TopHeader = () => {
             <li>
               <a href="#contact">Contact</a>
             </li>
-          </ul>
+          </ul> */}
         </div>
       </div>
     </div>

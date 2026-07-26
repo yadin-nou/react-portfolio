@@ -264,7 +264,7 @@ p {
 }
 /* skills  */
 .skills {
-  height: 50vh;
+  height: 100vh;
 }
 .skills .container {
   display: flex;

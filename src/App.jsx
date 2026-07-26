@@ -8,9 +8,9 @@ import mypic from "./assets/yadin.jpg";
 import { Aboutme } from "./components/Aboutme";
 import { Footer } from "./components/Footer";
 import { Contact } from "./components/Contact";
-import { Link, Router, Routers } from "react-router-dom";
+import { Outlet, Route, Routes } from "react-router-dom";
 
-function App() {
+const App = () => {
   const handleToggle = () => {
     document.documentElement.classList.toggle("dark-theme");
   };
@@ -21,22 +21,27 @@ function App() {
       <div className="ch-background" onClick={handleToggle}>
         <i className="fa-solid fa-circle-half-stroke"></i>
       </div>
-      {/* Hero Section */}
-      <Hero mypic={mypic} />
-      {/* experince section */}
+
+      <Routes>
+        <Route path="/" element={<Outlet />}>
+          <Route index path="/" element={<Hero mypic={mypic} />} />
+          <Route path="/skills" element={<Skills />} />
+          <Route path="/projects" element={<Projects />} />
+          <Route path="/aboutme" element={<Aboutme mypic={mypic} />} />
+          <Route path="/contact" element={<Contact />} />
+        </Route>
+      </Routes>
+
+      {/* <Hero mypic={mypic} />
       <Experience />
-      {/* Skills section */}
       <Skills />
-      {/* Project Section */}
       <Projects />
-      {/* About me section */}
       <Aboutme mypic={mypic} />
-      {/* Contact me */}
-      <Contact />
+      <Contact /> */}
       {/* footer section */}
       <Footer />
     </div>
   );
-}
+};
 
 export default App;
