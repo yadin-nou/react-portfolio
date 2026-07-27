@@ -5,8 +5,9 @@
   --black-text: black;
   --white-text: white;
   --heroBackground: #2a4365;
+  /* --bordershadow: rgba(0, 0, 0, 0.25) 0px 18px 150px -20px; */
+  --bordershadow: rgba(8, 3, 3, 0.45) 0px 18px 150px -20px;
 }
-
 .joti-one-regular {
   font-family: "Joti One", serif;
   font-weight: 400;
@@ -75,7 +76,7 @@ html {
     var(--primary-color) 100%,
     black 100%
   ); */
-
+  box-shadow: var(--bordershadow) !important;
   height: 6vh;
   font-size: 1rem;
 }
@@ -126,7 +127,8 @@ html {
   height: 100vh;
   font-size: 1rem;
   padding-top: 10vh;
-  box-shadow: rgba(0, 0, 0, 0.3) 0px 18px 29px -23px inset;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 18px 150px -20px;
+
   /* position: relative; */
 }
 .ch-background {
@@ -265,6 +267,7 @@ p {
 /* skills  */
 .skills {
   height: 100vh;
+  /* box-shadow: var(--bordershadow); */
 }
 .skills .container {
   display: flex;
@@ -308,6 +311,7 @@ p {
   /* height: 100vh; */
   padding-bottom: 20px;
   width: 100%;
+  /* box-shadow: var(--bordershadow); */
 }
 .projects-container {
   display: grid;
@@ -347,6 +351,7 @@ p {
 /* about me infomation */
 .aboutme {
   height: 100vh;
+  /* box-shadow: var(--bordershadow); */
 }
 .aboutme .container {
   display: flex;
@@ -381,6 +386,7 @@ p {
 .contact {
   height: 100vh;
   padding-top: 50px;
+  /* box-shadow: var(--bordershadow); */
 }
 
 .contact-logo {
