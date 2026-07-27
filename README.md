@@ -1,16 +1,85 @@
-# React + Vite
+# Portfolio Website
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Welcome to my Portfolio Website repository!
+This project highlights my professional journey, skills, and the projects
+I've built along the way. It's designed to give visitors a clear,
+comprehensive look at my work and progress in web development.
 
-Currently, two official plugins are available:
+![Websute Screenshort](./src/assets/)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## Table of Contents
 
-## React Compiler
+- [Introduction](#introduction)
+- [Features](#featuers)
+- [Technoloies Used](#technologies-used)
+- [How to Use](#how-to-use)
+- [Usage](#usage)
+- [Project Structure](#project-structure)
+- [Contributing](#contributing)
+- [License](#license)
+- [Contact](#contact)
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## Introduction
 
-## Expanding the ESLint configuration
+This project is build with React and deployed via GitHub Pages / Vercel, this
+portfolio highlights projects ranging from interactive web apps
+to full-stack experiments, reflecting into
+web development as a Full Stack Developer.
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+[Visit My Live Website](https://react-portfolio-azure-one.vercel.app)
+
+## Featuers
+
+- **Responsive Design**: Optimized for all devices, including desktops, tablets, and mobile phones.
+
+## Technologies used
+
+- **Frontend**:
+  - HTML5
+  - CSS3
+  - ReactJS
+- **Backend**:
+- **Database**:
+- **Deployment**
+  - Vercel
+
+## How to use?
+
+To set up this project in your device locally, please follow the steps:
+
+1.  **Clone the respository**:
+    run the following command in your terminal:
+    > ```
+    >   git clone https://github.com/yadin-nou/react-portfolio
+    > ```
+2.  **Navigate to the project directory**:
+    > ```
+    >   cd yadin-nou
+    > ```
+3.  **Install Dependencies**:
+    > ```
+    >   yarn
+    > ```
+4.  **Run the development server**:
+    > ```
+    >   yarn dev
+    > ```
+
+## Usage
+
+## Project Structure
+
+```
+react-portfolio
+|-- public
+|-- src
+| |-- components
+| | |-- About.jsx
+
+```
+
+## Contributing
+
+## License
+
+## Contact
