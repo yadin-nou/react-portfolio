@@ -182,8 +182,8 @@ p {
   font-size: 1rem;
 }
 .img-yadin {
-  width: 150px;
-  height: 20vh;
+  width: 200px;
+  min-height: 22vh;
   border-radius: 50%;
 }
 /* link show section */
