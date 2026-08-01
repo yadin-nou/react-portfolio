@@ -184,7 +184,7 @@ p {
 .img-yadin {
   width: 200px;
   min-height: 22vh;
-  border-radius: 50%;
+  border-radius: 10%;
 }
 /* link show section */
 .experience {
@@ -480,7 +480,7 @@ p {
   .img-yadin {
     width: calc(100vw-150px);
     height: auto;
-    border-radius: 50%;
+    border-radius: 0%;
   }
   .experience {
     display: flex;
