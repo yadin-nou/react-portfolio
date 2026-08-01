@@ -1,6 +1,6 @@
 import React from "react";
 import calculatorImg from "../assets/images/calculator.png";
-import travel from "../assets/images/travel.png";
+import movieWorld from "../assets/images/movie-world.png";
 import randomUser from "../assets/images/random-User.png";
 import notTodo from "../assets/images/not_list.png";
 import { Layout } from "./Layout";
@@ -14,28 +14,28 @@ export const Projects = () => {
       gitLink: "https://github.com/yadin-nou/react-calculator-apple",
       proLink: "https://react-calculator-apple.vercel.app/",
       title: "Prank Calculator Apple version",
-      description: "Techstack: HTML, CSSS, Javascript and React JS",
+      description: "HTML, CSS, Javascript and React JS",
     },
     {
-      imgPath: travel,
-      gitLink: "https://github.com/yadin-nou/flex-box-template",
-      proLink: "https://yadin-nou.github.io/flex-box-template/",
-      title: "Travel Blog",
-      description: "Techstack: HTML, CSSS",
+      imgPath: movieWorld,
+      gitLink: "https://github.com/yadin-nou/movie-world",
+      proLink: "https://movie-world-sooty.vercel.app/",
+      title: "Movie World",
+      description: "HTML, CSS, Javascript,bootstrap, API and ReactJS",
     },
     {
       imgPath: randomUser,
       gitLink: "https://github.com/yadin-nou/contact-list",
       proLink: "https://yadin-nou.github.io/contact-list/",
       title: "Contact List",
-      description: "Techstack: HTML, CSSS, Javascript,API and Bootstrap",
+      description: "HTML, CSS, Javascript, API  and Bootstrap",
     },
     {
       imgPath: notTodo,
       gitLink: "https://github.com/yadin-nou/not-to-list",
       proLink: "https://react-not-todo-list-nine.vercel.app/",
       title: "NOT To List",
-      description: "Techstack: HTML, CSSS, Javascript and React JS",
+      description: "HTML, CSS, Javascript and React JS",
     },
   ];
   return (

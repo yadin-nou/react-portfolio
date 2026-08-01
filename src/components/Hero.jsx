@@ -30,8 +30,8 @@ export const Hero = ({ mypic }) => {
                 target="_blank"
                 rel="noopener noreferrer"
               >
-                Download CV
-                <i className="fa-solid fa-download fa-sm"></i>
+                Download CV &nbsp;
+                <i className="fa-solid fa-download fa-md"></i>
               </a>
             </div>
           </div>

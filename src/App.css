@@ -168,8 +168,8 @@ p {
 }
 .download {
   background: black;
-  width: 150px;
-  height: 30px;
+  width: 180px;
+  height: 45px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -237,7 +237,8 @@ p {
   /* grid-row: 2/3;
   grid-column: 2/2; */
   grid-area: award-status;
-  color: orange;
+  /* color: orangered; */
+  color: var(--heroBackground);
 }
 .v-line {
   width: 2px;
@@ -272,7 +273,9 @@ p {
 .skills .container {
   display: flex;
   flex-direction: column;
+  justify-content: end;
   gap: 30px;
+  padding-top: 10%;
 }
 .sub-skills {
   display: flex;
@@ -280,6 +283,7 @@ p {
   justify-content: space-between;
   color: var(--black-text);
   gap: 50px;
+  margin-top: 100px;
 }
 .subskill-flex {
   display: flex;
@@ -338,7 +342,11 @@ p {
 }
 .card img {
   width: 100%;
+  height: 90%;
   border-radius: 20px;
+}
+.techstack {
+  font-weight: bold;
 }
 .git-link {
   display: flex;
@@ -505,6 +513,7 @@ p {
   }
   .card img {
     width: 100%;
+    height: 100%;
   }
 
   .pro-title {
@@ -620,14 +629,16 @@ p {
 
   .pro-title {
     font-size: 1rem;
-    text-align: center;
+    text-align: left;
   }
+
   .card {
     /* width: 250px; */
     width: 100%;
   }
   .card img {
     width: 100%;
+    height: 100%;
   }
 
   .aboutme {

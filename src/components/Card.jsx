@@ -31,7 +31,10 @@ export const Card = ({ imgPath, gitLink, proLink, title, description }) => {
         </div>
         <div className="pro-title">
           <h4>{title}</h4>
-          <div> {description}</div>
+          <div>
+            <span className="techstack">Techstack: </span>
+            {description}
+          </div>
         </div>
       </div>
     </>
