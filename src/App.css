@@ -557,6 +557,7 @@ p {
     left: 100%;
     z-index: 1;
     top: 40px;
+    display: none;
   }
   .menu ul {
     display: flex;
@@ -574,6 +575,7 @@ p {
   } */
   .slide {
     left: 80%;
+    display: block;
   }
 }
 @media (max-width: 576px) {
