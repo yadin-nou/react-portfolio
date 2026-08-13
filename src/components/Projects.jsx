@@ -33,9 +33,9 @@ export const Projects = () => {
     {
       imgPath: notTodo,
       gitLink: "https://github.com/yadin-nou/not-to-list",
-      proLink: "https://react-not-todo-list-nine.vercel.app/",
+      proLink: "https://full-stack-development-mern-r34r.onrender.com/",
       title: "NOT To List",
-      description: "HTML, CSS, Javascript and React JS",
+      description: "HTML, CSS, Javascript,React JS, Node and express.js",
     },
   ];
   return (
