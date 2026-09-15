@@ -496,7 +496,7 @@ p {
   }
 
   .skills {
-    height: 100vh;
+    height: 100%;
   }
   .skills .container {
     display: flex;
@@ -609,7 +609,7 @@ p {
   }
 
   .skills {
-    height: 100vh;
+    height: 100%;
   }
   .skills .container {
     display: flex;
