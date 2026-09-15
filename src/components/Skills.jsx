@@ -76,8 +76,8 @@ export const Skills = () => {
             <div className="subskill-flex">
               <span>
                 <i
-                  class="fa-brands fa-node fa-lg"
-                  style="color: rgb(177, 151, 252);"
+                  class="fa-brands fa-node"
+                  style={{ color: "rgb(177, 151, 252)" }}
                 ></i>
               </span>
               <span>Node.js</span>
@@ -86,7 +86,7 @@ export const Skills = () => {
               <span>
                 <i
                   class="fa-brands fa-node-js"
-                  style="color: rgb(99, 230, 190);"
+                  style={{ color: "rgb(99, 230, 190)" }}
                 ></i>
               </span>
               <span>Express.js</span>
@@ -95,7 +95,7 @@ export const Skills = () => {
               <span>
                 <i
                   class="fa-brands fa-mdb"
-                  style="color: rgb(98, 193, 16);"
+                  style={{ color: "rgb(98, 193, 16)" }}
                 ></i>
               </span>
               <span>MongoDB</span>
