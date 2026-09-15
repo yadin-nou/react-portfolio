@@ -1,6 +1,8 @@
 import React from "react";
 import { Layout } from "./Layout";
 import { Title } from "./Title";
+import { BiLogoRedux } from "react-icons/bi";
+import { SiExpress } from "react-icons/si";
 export const Skills = () => {
   return (
     <>
@@ -84,10 +86,7 @@ export const Skills = () => {
             </div>
             <div className="subskill-flex">
               <span>
-                <i
-                  class="fa-brands fa-node-js"
-                  style={{ color: "rgb(99, 230, 190)" }}
-                ></i>
+                <SiExpress style={{ fontSize: "4.5rem" }} />
               </span>
               <span>Express.js</span>
             </div>
@@ -99,6 +98,12 @@ export const Skills = () => {
                 ></i>
               </span>
               <span>MongoDB</span>
+            </div>
+            <div className="subskill-flex">
+              <span>
+                <BiLogoRedux style={{ fontSize: "4.5rem" }} />
+              </span>
+              <span>Redux</span>
             </div>
             <div className="subskill-flex">
               <span>
