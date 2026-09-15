@@ -267,8 +267,9 @@ p {
 }
 /* skills  */
 .skills {
-  height: 100vh;
+  min-height: 100vh;
   /* box-shadow: var(--bordershadow); */
+  padding-bottom: 20px;
 }
 .skills .container {
   display: flex;
@@ -496,7 +497,7 @@ p {
   }
 
   .skills {
-    height: 100%;
+    min-height: 100vh;
   }
   .skills .container {
     display: flex;
@@ -609,7 +610,7 @@ p {
   }
 
   .skills {
-    height: 100%;
+    min-height: 100%;
   }
   .skills .container {
     display: flex;
