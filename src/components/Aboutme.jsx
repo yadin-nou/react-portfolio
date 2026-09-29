@@ -21,12 +21,14 @@ export const Aboutme = ({ mypic }) => {
               <p>
                 Full Stack Developer with 1+ years of hands-on experience
                 building responsive, high-performance web apps using Javascript,
-                JSON, HTML, CSS, PHP and MySQL. Currently working in a Transport
-                Coordinator role at DHL Supply Chain, gaining exposure to
-                large-scale enterprise systems, workflow management, and
-                operational processes in a high-volume logistics environment.
-                Passionate about building intuitive user experiences and writing
-                code that scales.
+                JSON, RESTful APIs, Bootstrap, HTML, CSS, React JS, NodeJS,
+                ExpressJS, PHP,Flask, MongoDB and MySQL. Currently working in a
+                Transport Coordinator role at DHL Supply Chain, gaining exposure
+                to large-scale enterprise systems, workflow management, and
+                operational processes in a high-volume logistics environment. I
+                believe my background and enthusiasm for technology will be an
+                asset to your team, and I am excited about the possibility of
+                contributing to your innovative projects.
               </p>
 
               <h4>Sydney, Australia</h4>
