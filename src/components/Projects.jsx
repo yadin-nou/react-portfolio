@@ -4,6 +4,7 @@ import movieWorld from "../assets/images/movie-world.png";
 import randomUser from "../assets/images/random-User.png";
 import notTodo from "../assets/images/not_list.png";
 import ft_tracker from "../assets/images/ft-tracker.png";
+import library_project from "../assets/images/library_project.png";
 import { Layout } from "./Layout";
 import { Card } from "./Card";
 import { Title } from "./Title";
@@ -11,12 +12,20 @@ import { Title } from "./Title";
 export const Projects = () => {
   const cardDetail = [
     {
+      imgPath: library_project,
+      gitLink: "https://github.com/yadin-nou/backend-library",
+      proLink: "http://lms-yd-bucket.s3-website-ap-southeast-2.amazonaws.com",
+      title: "Library Management System App",
+      description:
+        "HTML, CSS,Bootstrap,Javascript,React JS,JWT,Redux,Contact API, Nodemailer, Node.js + Express,and MongoDB",
+    },
+    {
       imgPath: ft_tracker,
       gitLink: "https://github.com/yadin-nou/backend-ft",
       proLink: "https://finance-tracker-nine-smoky.vercel.app/",
       title: "Financial Tracker App",
       description:
-        "HTML, CSS, Javascript,React JS,JWT, Contact API, Redux, Nodemailer, Node, MongoDB and express.js",
+        "HTML, CSS, Javascript,Bootstrap, React JS,JWT,Contact API, Redux, Nodemailer, Node.js + Express, and  MongoDB",
     },
     {
       imgPath: notTodo,
